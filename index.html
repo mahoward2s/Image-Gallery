@@ -7,8 +7,25 @@
 </head>
 <body>
     <!--Heading Name-->
+    <div class="heading">
+        <h1>Image Gallery</h1>
+    </div>
     <!--Image Gallery section all images in one div-->
+    <div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
     <!--Modal for Image Display-->
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
     <!--JavaScript for Modal-->
     <script>
         function openModal(imageSrc) {
